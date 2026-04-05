@@ -1,27 +1,76 @@
-# Instructions
+# 🎮 Rock Paper Scissors Game
 
-Create a rock paper scissors game using JavaScript.
+A simple, interactive **Rock Paper Scissors** game built using vanilla **HTML, CSS, and JavaScript**.
 
-The HTML page has already been linked to the JavaScript file for you. This will allow you to see the console.logs in the Developer Tools.
+---
 
-## How do I see Developer Tools on my browser
-1. Open the HTML page in your browser (by opening the file in your folders, or by using Live Preview)
-2. Right click on the page --> Inspect
-3. Find the Console tab and click on it to see the console.
+## 🚀 Features
 
+* **Interactive UI**
+  Clean and simple layout with buttons for Rock, Paper, and Scissors.
 
-## HINTS
-1. Start by working out the game logic of a rock paper scissors game - it may help to draw this out
-2. You will need to use prompt(), console.log() to communicate with the user.
-3. You will find it easier if you use Math(s) ... :)
-4. Too much code and it's getting overwhelming? Use functions to chunk it up!
+* **Real-time Results**
+  Instantly see whether you win, lose, or tie after each round.
 
+* **Lightweight**
+  Built with pure web technologies — no frameworks or libraries required.
 
-## Finished?
-How can you make your game more complex?
-How can you stop users from breaking your game?
-Can you clean up your code to make it neater/simpler?
+---
 
-Some ideas for inspiration:
-- Add more options (rock, paper, scissors, lizard, spock)
-- Let users choose rock even if they type in "r", "rock" or "Rock"
+## 📂 Project Structure
+
+```
+📁 project-folder
+│── index.html     # Structure of the game
+│── styles.css     # Styling and layout
+│── rps.js         # Game logic
+```
+
+---
+
+## 🛠️ How to Run
+
+1. Clone this repository or download the source files.
+2. Make sure all files are in the same folder:
+
+   * `index.html`
+   * `styles.css`
+   * `rps.js`
+3. Open `index.html` in any modern web browser.
+
+---
+
+## 🎮 How to Play
+
+1. Click on one of the buttons:
+
+   * Rock
+   * Paper
+   * Scissors
+
+2. The computer will randomly select its choice.
+
+3. The result will be displayed instantly:
+
+   * ✅ Win
+   * ❌ Lose
+   * 🤝 Tie
+
+---
+
+## 💡 Tech Stack
+
+* HTML
+* CSS
+* JavaScript
+
+---
+
+## 📌 Future Improvements (Optional)
+
+* Add score tracking
+* Add animations and sound effects
+* Make it mobile responsive
+* Add multiplayer mode
+
+---
